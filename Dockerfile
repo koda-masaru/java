@@ -1,4 +1,4 @@
-FROM openjdk:13-jdk-slim-buster
+FROM openjdk:15.0.2-slim-buster
 
 # install 
 RUN apt-get -y update && apt-get -y install git curl procps
